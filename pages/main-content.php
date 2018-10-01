@@ -51,14 +51,14 @@ if(isset($_POST['btn'])){
                 </div>
             </div>
            <div class="gallery-img">
-                <div class="col-sm-4 col-sm-offset-2">
+                <div class="col-sm-4">
                     <img src="img/img-1.jpg" alt="image 1">
+                </div>
+                <div class="col-sm-4">
+                    <img src="img/img-2.jpg" alt="image 1">
                 </div>
                 <div class="col-sm-4 galley-last">
                     <img src="img/img-3.jpg" alt="image 1">
-                </div>
-                <div class="col-sm-12">
-                    <h3>Discount up to 30% OFF</h3>
                 </div>
             </div>
         </div>
