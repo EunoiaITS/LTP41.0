@@ -3,8 +3,8 @@ require './classes/main.php';
 
 if(isset($_POST['btn'])){
     if(isset($_POST['check'])){
-        $obj_rq = new main();
-        $obj_rq->reqQuote($_POST);
+            $obj_rq = new main();
+            $obj_rq->reqQuote($_POST);
     }
 }
 ?>
@@ -19,13 +19,15 @@ if(isset($_POST['btn'])){
     <div class="container-fluid no-padding">
         <div class="subcription-area">
             <div class="provided-shadow">
-                <div class="provided-link"></div>
+                <div class="provided-link">
+                    <img src="img/clock.jpg" alt="Requested Product Image">
+                </div>
             </div>
             <div class="white-shadow">
                 <div class="provided-clock">
                     <form action="#" class="provided-link-option">
                         <h3 class="provided-txt">Provide link bellow:</h3>
-                        <input type="text" name="url" id="link" class="form-control elem">
+                        <input type="text" name="url" id="link" class="form-control elem" required>
                         <button type="button" class="btn btn-info btn-button" id="preview">Preview</button>
                         <button type="button" class="btn btn-info btn-button" id="req-quote" data-toggle="modal" data-target=".bs-example-modal-lg">Request Quote</button>
                     </form>
@@ -103,12 +105,13 @@ Request quote modal
                         <label for="check">I agree to the <a href="terms_condition.html">terms and conditions</a> of Anbonaki</label>
                     </div>
                 </div>
-                <button name="btn" type="submit" class="btn btn-dark btn-flat" data-toggle="modal" data-target=".bs-example-modal-sm" id="buttonid">Send</button>
+                <input type="hidden" name="modal">
+                <button name="btn" type="submit" class="btn btn-dark btn-flat" data-toggle="modal" data-target=".bs-example-modal-sm">Send</button>
             </form>
         </div>
     </div>
 </div>
-<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+<!--<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
     <div class="modal-dialog modal-sm" role="document">
         <div class="modal-content">
             <div class="modal-header">
@@ -121,4 +124,4 @@ Request quote modal
             <button type="button" class="btn btn-dark btn-flat" data-dismiss="modal">Ok</button>
         </div>
     </div>
-</div>
+</div>-->

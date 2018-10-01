@@ -12,6 +12,8 @@ if(isset($page)){
         include 'pages/sites-content.php';
     }elseif ($page == 'contact'){
         include 'pages/contact-content.php';
+    }elseif ($page == 'terms'){
+        include 'pages/terms-content.php';
     }
 }else{
     include 'pages/main-content.php';

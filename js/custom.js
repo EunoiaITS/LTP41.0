@@ -2,12 +2,7 @@
 (function($) {
   
   "use strict";
-    /*--=====================
-  hide double popup
-  ======================--*/
-    $("#buttonid").click(function(){
-        $('#modal_id_you_want_to_hid').modal('hide');
-    });
+
 
   /*==========================
   landing area slider

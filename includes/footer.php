@@ -6,6 +6,8 @@
                     <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                     <li><a href="#"><i class="fab fa-instagram"></i></a></li>
                 </ul>
+                <div class="clearfix"></div>
+                <a href="terms.php">Terms & Conditions</a>
             </div>
         </div>
         <div class="col-sm-4">
@@ -52,18 +54,30 @@
                     $('.provided-link').html(html);
                 },
                 error: function(xhr, textStatus, error){
-                    alert(textStatus); //returns error
+                    //alert(textStatus); //returns error
                 }
             });
         });
         $('#req-quote').on('click',function (e) {
-            var link = $('#link').val();
-            //alert(link);
-            $('#d-link').val(link);
-            var link = $('#link').val();
-            var html = '<img src="'+image+'">';
-            $('.prov-link').append(html);
-            //alert(link);
+            var url = $('#link').val();
+            $('#d-link').val(url);
+            var link = "<?php (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";?>";
+            var html ='';
+            $.ajax({
+                type: 'POST',
+                url: link+'/includes/preview.php',
+                data: {'url':url},
+                dataType: 'json',
+                success: function(data, textStatus, xhr){
+                    //console.log(data.metaTags['og:image'].value);
+                    image = data.metaTags['og:image'].value;
+                    html = '<img src="'+image+'">';
+                    $('.prov-link').append(html);
+                },
+                error: function(xhr, textStatus, error){
+                    //alert(textStatus); //returns error
+                }
+            });
         });
     });
 </script>

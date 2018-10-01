@@ -14,19 +14,19 @@
                     <div class="col-sm-6 pad-no">
                         <div class="form-group">
                             <label for="name">Name</label>
-                            <input type="text" name="name" id="name" placeholder="Sarah T.Connor" class="form-control">
+                            <input type="text" name="name" id="name" placeholder="Sarah T.Connor" class="form-control" required>
                         </div>
                     </div>
                     <div class="col-sm-6 no-pad-xs">
                         <div class="form-group">
                             <label for="number">Contact No</label>
-                            <input type="text" name="number" id="number" placeholder="01234567890" class="form-control">
+                            <input type="text" name="number" id="number" placeholder="01234567890" class="form-control" required>
                         </div>
                     </div>
                     <div class="col-sm-6 pad-no">
                         <div class="form-group">
                             <label for="email">Email</label>
-                            <input type="email" name="email" id="email" placeholder="example@gmial.com" class="form-control">
+                            <input type="email" name="email" id="email" placeholder="example@gmial.com" class="form-control" required>
                         </div>
                     </div>
                     <div class="col-sm-6 no-pad-xs">
