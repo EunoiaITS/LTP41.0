@@ -6,14 +6,14 @@ class Main {
         require_once './vendor/autoload.php';
         if (isset($_POST['btn'])) {
             if (isset($_POST['check'])){
-                $transport = (new \Swift_SmtpTransport('ssl://test.getwobo.com', 465))
-                    ->setUsername("mail@test.getwobo.com")
-                    ->setPassword('6?bxd~bMW,7j');
+                $transport = (new \Swift_SmtpTransport('ssl://mail@anbonaki.com', 465))
+                    ->setUsername("order@anbonaki.com")
+                    ->setPassword('#LAk18Dhool$');
 
                 $mailer = new \Swift_Mailer($transport);
 
                 $message = new \Swift_Message('Anbonaki - Requested Quote');
-                $message->setFrom(['support@getwobo.com' => 'Anbonaki - Requested Quote']);
+                $message->setFrom(['order@anbonaki.com' => 'Anbonaki - Requested Quote']);
                 $message->setTo(['mushfiqur.rahman06@gmail.com']);
                 $message->setBody('<html><body>'.
                     '<h1>Hello Admin !</h1>'.

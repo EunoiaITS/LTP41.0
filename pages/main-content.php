@@ -1,5 +1,6 @@
 <?php
 require './classes/main.php';
+
 if(isset($_POST['btn'])){
     if(isset($_POST['check'])){
         $obj_rq = new main();
@@ -18,15 +19,14 @@ if(isset($_POST['btn'])){
     <div class="container-fluid no-padding">
         <div class="subcription-area">
             <div class="provided-shadow">
-                <div class="provided-link">
-                    <img src="img/clock.jpg" class="clock-option" alt="clock">
-                </div>
+                <div class="provided-link"></div>
             </div>
             <div class="white-shadow">
                 <div class="provided-clock">
                     <form action="#" class="provided-link-option">
                         <h3 class="provided-txt">Provide link bellow:</h3>
-                        <input type="text" id="link" class="form-control">
+                        <input type="text" name="url" id="link" class="form-control elem">
+                        <button type="button" class="btn btn-info btn-button" id="preview">Preview</button>
                         <button type="button" class="btn btn-info btn-button" id="req-quote" data-toggle="modal" data-target=".bs-example-modal-lg">Request Quote</button>
                     </form>
                 </div>
@@ -89,8 +89,8 @@ Request quote modal
                     <div class="form-group">
                         <input type="text" id="d-link" name="link" class="form-control element" placeholder="Link*" required="required">
                     </div>
-                    <div id="preview-container" class="form-group">
-                        <div id="preview-container"></div>
+                    <div class="form-group">
+                        <div class="prov-link"></div>
                     </div>
                     <div class="form-group">
                         <input type="text" name="coupon" class="form-control" placeholder="Coupon Code">

@@ -7,14 +7,14 @@ class Contact
     {
         require_once './vendor/autoload.php';
         if (isset($_POST['btn'])) {
-                $transport = (new \Swift_SmtpTransport('ssl://test.getwobo.com', 465))
-                    ->setUsername("mail@test.getwobo.com")
-                    ->setPassword('6?bxd~bMW,7j');
+                $transport = (new \Swift_SmtpTransport('ssl://mail@anbonaki.com', 465))
+                    ->setUsername("mailto:info@anbonaki.com")
+                    ->setPassword('acTion#fuc18');
 
                 $mailer = new \Swift_Mailer($transport);
 
                 $message = new \Swift_Message('Anbonaki - Contact');
-                $message->setFrom(['support@getwobo.com' => 'Anbonaki - Contact']);
+                $message->setFrom(['info@anbonaki.com' => 'Anbonaki - Contact']);
                 $message->setTo(['mushfiqur.rahman06@gmail.com']);
                 $message->setBody('<html><body>' .
                     '<h1>Hello Admin !</h1>' .
