@@ -103,7 +103,8 @@
         padding-left: 0;
       }
     }
-    ol, ul{
+    
+    ul{
       list-style: none;
       margin:0;
       padding:0;
@@ -335,9 +336,9 @@
         border: 3px solid #8ab4b8;
         border-radius: 0px;
     }
-    .btn-info.btn-button{
-        margin: 24px auto 0px;
-        display: block;
+    .btn-info.btn-button {
+        margin: 24px 10px 0px;
+        display: inline-block;
         background: transparent;
         border: 1px solid #acf6b3;
         color: #acf6b3;
@@ -369,9 +370,10 @@
         clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
         
     }
-    .provided-link img{
-      margin: 0 auto;
-      display: block;
+    .provided-link img {
+        margin: 0 auto;
+        display: block;
+        width: 250px;
     }
 
 
@@ -457,7 +459,6 @@
     .slick-prev  {
         left: -44px;
     }
-
     .gallery-img img {
         margin: 0 auto 30px;
         display: block;
@@ -465,6 +466,18 @@
     }
     .gallery-img .galley-last img{
       box-shadow: 6px 11px 10px rgba(0,0,0,.3) !important;
+    }
+    .gallery-img h3 {
+        text-align: center;
+        text-transform: uppercase;
+        background: #fff;
+        width: 37%;
+        padding: 10px 0px;
+        margin: 20px auto 30px;
+        border-radius: 5px;
+        color: red;
+        font-weight: bold;
+        box-shadow: -7px 5px 30px rgba(0,0,0,.3);
     }
 
     /*-- footer area --*/
@@ -475,7 +488,7 @@
     }
     
     .social-media{
-        margin: 13px 0px;
+        margin: 13px 0px 0px;
         display: block;
         overflow: hidden;
     }
@@ -492,6 +505,11 @@
         display: block;
         text-align: center;
         padding: 1px 0px;
+        margin-bottom: 5px;
+    }
+    .social-media a{
+      color: #000;
+      font-size: 15px;
     }
     .copy-right{
       margin-top: 13px;
@@ -501,6 +519,7 @@
         margin-bottom: 0px;
         color: #494d56;
         line-height: 16px;
+        font-family: 'Open Sans', sans-serif;
     }
     .copy-right p a{
        color: #494d56;
@@ -561,6 +580,11 @@
     .form-group {
         margin-bottom: 25px;
     }
+    .prov-link img{
+        width: 290px;
+        margin: 0 auto;
+        display: block;
+    }
     .clock-img img{
         margin: 0px auto 25px;
         display: block;
@@ -584,6 +608,7 @@
     button.close{
       opacity: 1;
     }
+  
 
 
     /*-- sites page --*/
@@ -725,10 +750,22 @@
   .about-anbonaki{
     margin-top: 15%;
   }
+  .anbonaki-terms h2{
+    margin-top: 50px;
+  }
   .about-anbonaki h2{
     font-size: 24px;
     text-transform: uppercase;
     font-family: 'caviar_dreamsbold';
+  }
+  .about-anbonaki h2 img{
+    width: 16px;
+  }
+  .about-anbonaki h3{
+      font-size: 20px;
+      color: #000;
+      font-weight: bold;
+      margin-top: 30px;
   }
   .about-anbonaki p{
       font-size: 14px;
