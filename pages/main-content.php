@@ -50,15 +50,15 @@ if(isset($_POST['btn'])){
                     <div class="items-client"><a href="#"><img src="img/clients/walmart.png" alt="walmart"></a></div>
                 </div>
             </div>
-            <div class="gallery-img">
-                <div class="col-sm-4">
+           <div class="gallery-img">
+                <div class="col-sm-4 col-sm-offset-2">
                     <img src="img/img-1.jpg" alt="image 1">
-                </div>
-                <div class="col-sm-4">
-                    <img src="img/img-2.jpg" alt="image 1">
                 </div>
                 <div class="col-sm-4 galley-last">
                     <img src="img/img-3.jpg" alt="image 1">
+                </div>
+                <div class="col-sm-12">
+                    <h3>Discount up to 30% OFF</h3>
                 </div>
             </div>
         </div>
@@ -100,7 +100,7 @@ Request quote modal
                     </div>
                     <div class="form-group">
                         <input type="checkbox" name="check" id="check" required>
-                        <label for="check">I agree to the <a href="#">terms and conditions</a> of Anbonaki</label>
+                        <label for="check">I agree to the <a href="terms_condition.html">terms and conditions</a> of Anbonaki</label>
                     </div>
                 </div>
                 <button name="btn" type="submit" class="btn btn-dark btn-flat" data-toggle="modal" data-target=".bs-example-modal-sm" id="buttonid">Send</button>
