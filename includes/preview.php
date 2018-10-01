@@ -81,7 +81,6 @@ preg_match('/<title>([^>]*)<\/title>/si', $contents, $match );
     $values = $match[2];
     if (count($originals) == count($names) && count($names) == count($values))
     {
-    // if(!isset($i)) $i=0;
     for ($j=0, $limiti=count($names); $j < $limiti; $j++)
     {
     $metaTags[$names[$j]] = array (
