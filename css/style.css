@@ -902,7 +902,7 @@
     font-size: 16px;
   }
   .panel-group {
-      margin-bottom: 5px;
+      margin-bottom: 50px;
   }
   .panel{
     background: transparent;
@@ -941,6 +941,9 @@
       color: #000;
       line-height: 22px;
       padding-left: 22px;
+  }
+  .panel-body img{
+    width: 20px;
   }
 
 
