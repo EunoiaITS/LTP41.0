@@ -52,7 +52,7 @@
                         <p>House 81 Green Taj Center Level 2 Road 8/A , Dhanmondi Dhaka</p>
                         <div class="underline-denvor"></div>
                         <p><img src="img/sms.png" alt=""><a href="mailto:info@anbonaki.com">info@anbonaki.com</a></p>
-                        <p> <img src="img/phone-2.png" alt="phone"> +88017123 567 89 <br> &nbsp; &nbsp; +880235467</p>
+                        <p> <img src="img/phone-2.png" alt="phone"> +880 1730-599577</p>
                     </div>
                 </div>
             </div>
