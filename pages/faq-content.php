@@ -7,83 +7,97 @@
                     <p>Quickly find out if we have addressed your query.</p>
                 </div>
 
-                <!-- faq : part 1 -->
+            <!-- faq : part 1 -->
                 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                     <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="headingOne">
-                            <h4 class="panel-title">
-                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    <img src="img/arrow-right.png" alt=""> <span>What?</span>
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-                            <div class="panel-body">
-                                Lorem ipsum dolor sit amet, vel pharetra wisi porttitor, ligula amet ac lectus, feugiat ultrices suscipit lorem. Rhoncus fringilla sollicitudin, ante ultrices. Proin tellus ac, dolor vivamus non pede integer in. Varius nisl odio pellentesque neque ligula. Phasellus molestie vestibulum volutpat in quis aliquam, dolor curabitur velit varius vestibulum in, in dolor eget velit, elit vulputate tempor morbi, nec augue lorem vehicula. Nonummy quis eget consequat ac auctor. Feugiat tristique lectus ornare, dolor nibh, sapien feugiat tempor ut congue.
-                            </div>
-                        </div>
+                    <div class="panel-heading" role="tab" id="headingOne">
+                      <h4 class="panel-title">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                         <img src="img/arrow-right.png" alt=""> <span>Why Anbonaki?</span>
+                        </a>
+                      </h4>
                     </div>
+                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                      <div class="panel-body">
+                       We are offering a very competitive pricing and fast delivery times, So why not?
+                      </div>
+                    </div>
+                  </div>
                     <!-- faq : part 2 -->
                     <div class="panel panel-default">
                         <div class="panel-heading" role="tab" id="headingTwo">
-                            <h4 class="panel-title">
-                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    <img src="img/arrow-right.png" alt=""> <span> How? </span>
-                                </a>
-                            </h4>
+                          <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              <img src="img/arrow-right.png" alt=""> <span> How long do you actually take? </span>
+                            </a>
+                          </h4>
                         </div>
                         <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                            <div class="panel-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                            </div>
+                          <div class="panel-body">
+                            Usually you would receive your products within 15-20 days of us receiving the item after your order, except in the rare case of an unavoidable issue.
+                          </div>
                         </div>
-                    </div>
-                    <!-- faq : part 3 -->
+                     </div>
+                     <!-- faq : part 3 -->
                     <div class="panel panel-default">
                         <div class="panel-heading" role="tab" id="headingthree">
-                            <h4 class="panel-title">
-                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsethree" aria-expanded="false" aria-controls="collapsethree">
-                                    <img src="img/arrow-right.png" alt=""> <span> Why? </span>
-                                </a>
-                            </h4>
+                          <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsethree" aria-expanded="false" aria-controls="collapsethree">
+                               <img src="img/arrow-right.png" alt=""> <span> How much are you charging? </span>
+                            </a>
+                          </h4>
                         </div>
                         <div id="collapsethree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingthree">
-                            <div class="panel-body">
-                                Lorem ipsum dolor sit amet, vel pharetra wisi porttitor, ligula amet ac lectus, feugiat ultrices suscipit lorem. Rhoncus fringilla sollicitudin, ante ultrices. Proin tellus ac, dolor vivamus non pede integer in. Varius nisl odio pellentesque neque ligula. Phasellus molestie vestibulum volutpat in quis aliquam, dolor curabitur velit varius vestibulum in, in dolor eget velit, elit vulputate tempor morbi, nec augue lorem vehicula. Nonummy quis eget consequat ac auctor. Feugiat tristique lectus ornare, dolor nibh, sapien feugiat tempor ut congue.
-                                Vestibulum dapibus eget cras sit luctus, torquent amet et condimentum semper tortor. Alias nec urna nunc ipsum pulvinar a, elementum purus purus morbi porttitor vel, dolor amet vivamus dapibus sodales. Non magna nec pellentesque fringilla. Est nullam et consectetur viverra gravida pellentesque, sed et in nunc etiam sed, tristique elit id, a tellus gravida. Cursus nulla in vitae sollicitudin faucibus. Amet feugiat viverra ultrices eget sed elit, perspiciatis scelerisque netus, rutrum amet quis dolor posuere augue nulla, metus varius mollis porttitor turpis. Ante sodales arcu nulla elit lectus mus, dis vehicula tempor, vivamus magna a est faucibus in, massa sed ipsum varius laoreet lectus maecenas. Adipiscing sit posuere malesuada, vitae nunc sociis quam dignissim elit lorem, ante vitae a congue, metus sed morbi donec porttitor pretium euismod, quis tincidunt nullam sem. Magna netus ligula viverra eleifend, per erat felis, tortor nullam quisque tempor enim aenean. Sodales sed sed justo netus aliquam, enim turpis lectus quam massa, inceptos ut habitant, per pharetra ut.
-                            </div>
+                          <div class="panel-body">
+                            We are charging <strong>90 Taka</strong> per United States Dollar, <strong>120 Taka</strong> per Great Britain Pound and <strong>15 taka</strong> per Chinese Renminbi. Service charge and taxes (if applicable) appy.
+                          </div>
                         </div>
-                    </div>
-                    <!-- faq : part 4 -->
+                     </div>
+                     <!-- faq : part 4 -->
                     <div class="panel panel-default">
                         <div class="panel-heading" role="tab" id="headingfour">
-                            <h4 class="panel-title">
-                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
-                                    <img src="img/arrow-right.png" alt=""> <span> These? </span>
-                                </a>
-                            </h4>
+                          <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                              <img src="img/arrow-right.png" alt=""> <span> Well, hey there, you are charging so less, how do you manage to make a profit? </span>
+                            </a>
+                          </h4>
                         </div>
                         <div id="collapsefour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingfour">
-                            <div class="panel-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                            </div>
+                          <div class="panel-body">
+                            The extra amount added to the original exchange rate is there just so that if currency rates fluctuate, which they do quite often, we don't end up in trouble. At the end the service charge is almost all we profit form <img src="img/smile.png" alt="">
+                          </div>
                         </div>
-                    </div>
-                    <!-- faq : part 5 -->
+                     </div>
+                      <!-- faq : part 5 -->
                     <div class="panel panel-default">
                         <div class="panel-heading" role="tab" id="headingfive">
-                            <h4 class="panel-title">
-                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
-                                    <img src="img/arrow-right.png" alt=""> <span> That? </span>
-                                </a>
-                            </h4>
+                          <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+                               <img src="img/arrow-right.png" alt=""> <span> How do I place an order? </span>
+                            </a>
+                          </h4>
                         </div>
                         <div id="collapsefive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingfive">
-                            <div class="panel-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                            </div>
+                          <div class="panel-body">
+                            After you head over to our homepage you will find an option to request a quote, fill up the form and our team would get back to you with a price quote.
+                          </div>
                         </div>
-                    </div>
+                     </div>
+                       <!-- faq : part 6 -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingsix">
+                          <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+                               <img src="img/arrow-right.png" alt=""> <span> How do I get in touch? </span>
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapsesix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingsix">
+                          <div class="panel-body">
+                            Head over to our <strong><a href="contact.html">Contact Us</a></strong> page our ever friendly customer support team would get back to you.
+                          </div>
+                        </div>
+                     </div>
                 </div>
             </div>
             <div class="col-sm-12">
