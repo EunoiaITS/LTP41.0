@@ -26,7 +26,7 @@ if(isset($_POST['btn'])){
             <div class="white-shadow">
                 <div class="provided-clock">
                     <form action="#" class="provided-link-option">
-                        <h3 class="provided-txt">Provide link bellow:</h3>
+                        <h3 class="provided-txt">Provide link below:</h3>
                         <input type="text" name="url" id="link" class="form-control elem" required>
                         <button type="button" class="btn btn-info btn-button" id="preview">Preview</button>
                         <button type="button" class="btn btn-info btn-button" id="req-quote" data-toggle="modal" data-target=".bs-example-modal-lg">Request Quote</button>
