@@ -34,6 +34,8 @@
 <script src="js/plugins.js"></script>
 <script src="js/slick.min.js"></script>
 <!-- main js file -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCeeHDCOXmUMja1CFg96RbtyKgx381yoBU"></script>
+<script src="js/index.js"></script>
 <script src="js/custom.js"></script>
 <script>
     $(document).ready(function () {
