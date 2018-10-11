@@ -3,7 +3,7 @@
         <div class="col-sm-4">
             <div class="social-media">
                 <ul>
-                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <a target="_blank" href="https://www.facebook.com/groups/2254774537882339/"><i class="fab fa-facebook-f"></i></a>
                     <li><a href="#"><i class="fab fa-instagram"></i></a></li>
                 </ul>
                 <div class="clearfix"></div>
@@ -12,14 +12,14 @@
         </div>
         <div class="col-sm-4">
             <div class="copy-right text-center">
-                <p>Powered by <a href="#">Eunoia I.T Solutions</a>
-                    <br>Copyright @ <a href="#">DEX Hub</a></p>
+                <p>Powered by <a href="http://www.eunoiaits.com/" target="_blank">Eunoia I.T Solutions</a> 
+					<br>Copyright @ <a href="https://www.dexhub.org/" target="_blank">DEX Hub</a></p>
             </div>
         </div>
         <div class="col-sm-4">
             <div class="contact-information text-right">
                 <p><a href="mailto:info@anbonaki.com">info@anbonaki.com</a> <img src="img/sms.png" alt=""></p>
-                <p>+88017123 567 89 | +880235467 <img src="img/phone-2.png" alt="phone"></p>
+                <p>+880 1730-599577 <img src="img/phone-2.png" alt="phone"></p>
             </div>
         </div>
     </div>
