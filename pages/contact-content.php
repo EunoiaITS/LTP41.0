@@ -14,31 +14,31 @@
                     <div class="col-sm-6 pad-no">
                         <div class="form-group">
                             <label for="name">Name</label>
-                            <input type="text" name="name" id="name" placeholder="Sarah T.Connor" class="form-control" required>
+                            <input type="text" name="name" id="name" class="form-control" required>
                         </div>
                     </div>
                     <div class="col-sm-6 no-pad-xs">
                         <div class="form-group">
                             <label for="number">Contact No</label>
-                            <input type="text" name="number" id="number" placeholder="01234567890" class="form-control" required>
+                            <input type="text" name="number" id="number" class="form-control" required>
                         </div>
                     </div>
                     <div class="col-sm-6 pad-no">
                         <div class="form-group">
                             <label for="email">Email</label>
-                            <input type="email" name="email" id="email" placeholder="example@gmial.com" class="form-control" required>
+                            <input type="email" name="email" id="email" class="form-control" required>
                         </div>
                     </div>
                     <div class="col-sm-6 no-pad-xs">
                         <div class="form-group">
                             <label for="subject">Subject</label>
-                            <input type="text" name="subject" id="subject" placeholder="Smart Watch" class="form-control">
+                            <input type="text" name="subject" id="subject" class="form-control">
                         </div>
                     </div>
                     <div class="col-sm-12 pad-no">
                         <div class="form-group">
                             <label for="message">Message</label>
-                            <textarea name="message" id="message" class="form-control" placeholder="Need it in black. Must be stainless steel and waterproof and hack proof. Need it asap before D-Day starts." cols="30" rows="8"></textarea>
+                            <textarea name="message" id="message" class="form-control" cols="30" rows="8"></textarea>
                         </div>
                     </div>
                     <button type="submit" name="btn" class="btn btn-info btn-submit">Send</button>
@@ -49,7 +49,7 @@
                     <h2 class="text-center">Our Location</h2>
                     <div id="map-canvas"></div>
                     <div class="map-address">
-                        <p>Denvor, CO. USA</p>
+                        <p>House 81 Green Taj Center Level 2 Road 8/A , Dhanmondi Dhaka</p>
                         <div class="underline-denvor"></div>
                         <p><img src="img/sms.png" alt=""><a href="mailto:info@anbonaki.com">info@anbonaki.com</a></p>
                         <p> <img src="img/phone-2.png" alt="phone"> +88017123 567 89 <br> &nbsp; &nbsp; +880235467</p>
