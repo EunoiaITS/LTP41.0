@@ -86,7 +86,7 @@ Request quote modal
                         <input type="email" name="email" class="form-control" placeholder="Your E-mail*" required="required">
                     </div>
                     <div class="form-group">
-                        <input type="number" name="number" class="form-control" placeholder="Contact Number*" required="required">
+                        <input type="number" name="text" class="form-control" placeholder="Contact Number*" required="required">
                     </div>
                     <div class="form-group">
                         <input type="text" id="d-link" name="link" class="form-control element" placeholder="Link*" required="required">
@@ -102,7 +102,7 @@ Request quote modal
                     </div>
                     <div class="form-group">
                         <input type="checkbox" name="check" id="check" required>
-                        <label for="check">I agree to the <a href="terms_condition.html">terms and conditions</a> of Anbonaki</label>
+                        <label for="check">I agree to the <a href="terms.php">terms and conditions</a> of Anbonaki</label>
                     </div>
                 </div>
                 <input type="hidden" name="modal">
