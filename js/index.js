@@ -6,7 +6,7 @@
             var mapOptions = {
                 zoom: 13,
                 scrollwheel: false,
-                center: new google.maps.LatLng(39.733153,-104.989365)
+                center: new google.maps.LatLng(23.7442146,90.3721082)
             };
 
             var map = new google.maps.Map(document.getElementById('map-canvas'),
