@@ -3,7 +3,7 @@
         <div class="col-sm-4">
             <div class="social-media">
                 <ul>
-                    <a target="_blank" href="https://www.facebook.com/groups/2254774537882339/"><i class="fab fa-facebook-f"></i></a>
+		    <li><a target="_blank" href="https://www.facebook.com/groups/2254774537882339/"><i class="fab fa-facebook-f"></i></a></li>
                     <li><a href="#"><i class="fab fa-instagram"></i></a></li>
                 </ul>
                 <div class="clearfix"></div>
