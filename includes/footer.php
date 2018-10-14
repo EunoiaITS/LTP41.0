@@ -7,7 +7,7 @@
                     <li><a href="#"><i class="fab fa-instagram"></i></a></li>
                 </ul>
                 <div class="clearfix"></div>
-                <a href="terms.php">Terms & Conditions</a>
+                <a class="terms" href="terms.php">Terms & Conditions</a>
             </div>
         </div>
         <div class="col-sm-4">
