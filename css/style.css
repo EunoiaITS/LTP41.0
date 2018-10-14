@@ -958,6 +958,10 @@
     .map-address p{
       font-size: 15px;
     }
+    .social-media a.terms{
+    text-align:center;
+    display:block;
+    }
   }
 
 
