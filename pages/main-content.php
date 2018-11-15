@@ -4,7 +4,7 @@ require './classes/main.php';
 if(isset($_POST['btn'])){
     if(isset($_POST['check'])){
             $obj_rq = new main();
-            $obj_rq->reqQuote($_POST);
+            $text = $obj_rq->reqQuote($_POST);
     }
 }
 ?>
@@ -106,12 +106,12 @@ Request quote modal
                     </div>
                 </div>
                 <input type="hidden" name="modal">
-                <button name="btn" type="submit" class="btn btn-dark btn-flat" data-toggle="modal" data-target=".bs-example-modal-sm">Send</button>
+                <button name="btn" type="submit" class="btn btn-dark btn-flat">Send</button>
             </form>
         </div>
     </div>
 </div>
-<!--<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+<div id="myModal" class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
     <div class="modal-dialog modal-sm" role="document">
         <div class="modal-content">
             <div class="modal-header">
@@ -119,9 +119,9 @@ Request quote modal
                 <div class="modal-title text-center" id="myModalLabel"><img src="img/anbonaki-sm-logo.png" alt=""></div>
             </div>
             <div class="modal-body">
-                <p class="text-center">Your Request has been recieved. We will contact with you soon!</p>
+                <p class="text-center">Your Request has been received. We will contact with you soon!</p>
             </div>
-            <button type="button" class="btn btn-dark btn-flat" data-dismiss="modal">Ok</button>
+            <button id="ok" type="button" class="btn btn-dark btn-flat">Ok</button>
         </div>
     </div>
-</div>-->
+</div>

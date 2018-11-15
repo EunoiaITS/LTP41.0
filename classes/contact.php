@@ -7,9 +7,9 @@ class Contact
     {
         require_once './vendor/autoload.php';
         if (isset($_POST['btn'])) {
-            $transport = (new \Swift_SmtpTransport('ssl://mail.anbonaki.com', 465))
-                ->setUsername('info@anbonaki.com')
-                ->setPassword('acTion#fuc18');
+            $transport = (new \Swift_SmtpTransport('ssl://mail.anbonaki.com', 465));
+                //->setUsername('info@anbonaki.com')
+                //->setPassword('acTion#fuc18');
 
             $mailer = new \Swift_Mailer($transport);
 
@@ -40,7 +40,12 @@ class Contact
                 '<br><br>Thank You<br>Anbonaki<br>Automated System</body></html>',
                 'text/html');
 
-            $result = $mailer->send($message);
+            if($mailer->send($message)){
+                $text = 'Thank you for your inquiry. We will come back to you shortly ! ';
+            }else{
+                $text = 'Can not send Email at this moment !';
+            }
+            return $text;
         }
     }
 }

@@ -1,15 +1,19 @@
 <?php
-    require './classes/contact.php';
-    if(isset($_POST['btn'])){
-        $obj_cont = new contact();
-        $obj_cont->contData($_POST);
-    }
+require './classes/contact.php';
+if(isset($_POST['btn'])){
+    $obj_cont = new contact();
+    $text = $obj_cont->contData($_POST);
+}
 ?>
 <div class="contact-us clearfix">
     <div class="container">
         <div class="about-anbonaki clearfix">
             <div class="col-sm-10 clearfix">
                 <h2>Contact Us</h2>
+                <?php if(isset($text)){ ?>
+                <h2 class="heading text-center alert alert-success"><?php echo $text;
+                        unset($text);?></h2>
+                <?php }?>
                 <form id="my-form" action="" method="post">
                     <div class="col-sm-6 pad-no">
                         <div class="form-group">

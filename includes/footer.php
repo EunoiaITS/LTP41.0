@@ -83,5 +83,20 @@
         });
     });
 </script>
+<?php
+if(isset($text))
+{
+    if ($text == 1){
+        echo "<script type='text/javascript'>
+         $(window).on('load',function(){
+            $('#myModal').modal('show');
+         });
+         $('#ok').on('click',function(e) {
+           e.preventDefault();
+           window.location.href = 'https://www.anbonaki.com';
+         });
+    </script>";
+    }
+}?>
 </body>
 </html>

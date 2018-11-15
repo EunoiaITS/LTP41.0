@@ -6,9 +6,9 @@ class Main {
         require_once './vendor/autoload.php';
         if (isset($_POST['btn'])) {
             if (isset($_POST['check'])){
-                $transport = (new \Swift_SmtpTransport('ssl://mail.anbonaki.com', 465))
-                    ->setUsername("order@anbonaki.com")
-                    ->setPassword('#LAk18Dhool$');
+                $transport = (new \Swift_SmtpTransport('ssl://mail.anbonaki.com', 465));
+                    //->setUsername("order@anbonaki.com")
+                    //->setPassword('#LAk18Dhool$');
 
                 $mailer = new \Swift_Mailer($transport);
 
@@ -40,7 +40,12 @@ class Main {
                     '<br><br>Thank You<br>Anbonaki<br>Automated System</body></html>',
                     'text/html');
 
-                $result = $mailer->send($message);
+                if($mailer->send($message)){
+                    $text = 1;
+                }else{
+                    $text = 0;
+                }
+                return $text;
             }
         }
     }
