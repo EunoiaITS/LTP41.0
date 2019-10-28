@@ -3,8 +3,8 @@ require './classes/main.php';
 
 if(isset($_POST['btn'])){
     if(isset($_POST['check'])){
-            $obj_rq = new main();
-            $text = $obj_rq->reqQuote($_POST);
+        $obj_rq = new main();
+        $text = $obj_rq->reqQuote($_POST);
     }
 }
 ?>
